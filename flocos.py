@@ -126,11 +126,11 @@ def benchmark(caminho, algoritmo, repeticoes=3):
 
 if __name__ == "__main__":
     instancias = [
-        "floco_debug_12.txt",
-        "floco_semgemeos_500.txt",
-        "floco_semgemeos_1000.txt",
-        "floco_semgemeos_2000.txt",
-        "floco_semgemeos_4000.txt",
+        "instancias/floco_debug_12.txt",
+        "instancias/floco_semgemeos_500.txt",
+        "instancias/floco_semgemeos_1000.txt",
+        "instancias/floco_semgemeos_2000.txt",
+        "instancias/floco_semgemeos_4000.txt",
         # descomente conforme for testando N maiores
         # "floco_semgemeos_8000.txt",
         # "floco_semgemeos_16000.txt",
