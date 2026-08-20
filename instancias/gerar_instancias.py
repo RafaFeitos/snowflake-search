@@ -1,7 +1,11 @@
 import random
 import os
 
-OUT = "/home/claude/flocos"
+# Define a pasta como "instancias"
+OUT = "instancias"
+
+# Cria a pasta automaticamente caso ela não exista, evitando erros
+os.makedirs(OUT, exist_ok=True)
 
 def floco_aleatorio(rng):
     return [rng.randint(0, 10_000_000) for _ in range(6)]
