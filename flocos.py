@@ -131,9 +131,8 @@ if __name__ == "__main__":
         "instancias/floco_semgemeos_1000.txt",
         "instancias/floco_semgemeos_2000.txt",
         "instancias/floco_semgemeos_4000.txt",
-        # descomente conforme for testando N maiores
-        # "floco_semgemeos_8000.txt",
-        # "floco_semgemeos_16000.txt",
+        "instancias/floco_semgemeos_8000.txt",
+        "instancias/floco_semgemeos_16000.txt",
     ]
 
     print(f"{'instância':30s} {'N':>7s} {'ingênuo (s)':>14s} {'hash (s)':>12s}")
