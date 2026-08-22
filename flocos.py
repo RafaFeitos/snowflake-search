@@ -43,7 +43,7 @@ def sao_gemeos(a, b):
         if rotacao == b:
             return True
         
-        return False
+    return False
     # TODO: implementar FEITO: percorre todas as rotações de a, compara com b
     raise NotImplementedError
 
@@ -98,10 +98,10 @@ def existe_par_gemeo_hash(flocos):
     for i, floco in enumerate(flocos):
         chave = chave_canonica(floco)
 
-    if chave in vistos:
-        return (vistos[chave], i)
+        if chave in vistos:
+            return (vistos[chave], i)
 
-    vistos[chave] = i
+        vistos[chave] = i
 
     return None
     # TODO: implementar (FEITO: percorre os flocos, calcula a chave canônica, verifica se já foi visto)
